@@ -21,6 +21,9 @@ public class ConnectSqlite extends SQLiteOpenHelper {
     public void onCreate(SQLiteDatabase db) {
 
 
+        db.execSQL("CREATE TABLE IF NOT EXISTS datos (fila VARCHAR (10), columna VARCHAR (10), dato VARCHAR (10))");
+
+
     }
 
     @Override
@@ -32,21 +35,8 @@ public class ConnectSqlite extends SQLiteOpenHelper {
     }
 
 
-    public Cursor ConsultarUsuPas (String usu, String pass){
-
-        Cursor mCursor  = this.getReadableDatabase().query("usuarios", new String[] {"usuario", "pass"},"usuario LIKE '" + usu +"' AND pass LIKE '" + pass +"'", null,null,null,null);
-
-        return mCursor;
-    }
-
-    public Cursor ConsultarPartida (String partida){
-
-
-        Cursor mCursor = this.getReadableDatabase().query("nombresPartidas", new String[] {"nombre"}, "nombre LIKE '" + partida + "'",null,null,null,null);
-
-        return mCursor;
-    }
 
 
 
 }
+ 
