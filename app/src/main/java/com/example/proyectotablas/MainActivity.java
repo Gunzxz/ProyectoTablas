@@ -219,7 +219,7 @@ public class MainActivity extends AppCompatActivity {
             bbdd.execSQL("INSERT INTO \"main\".\"datos\" (\"dato\", \"columna\", \"fila\") VALUES ('16\"', '10', '1/60');\n");
             bbdd.execSQL("INSERT INTO \"main\".\"datos\" (\"dato\", \"columna\", \"fila\") VALUES ('32\"', '10', '1/30');\n");
             bbdd.execSQL("INSERT INTO \"main\".\"datos\" (\"dato\", \"columna\", \"fila\") VALUES ('64\"', '10', '1/15');\n");
-            bbdd.execSQL("INSERT INTO \"main\".\"datos\" (\"dato\", \"columna\", \"fila\") VALUES ('12\"', '10', '1/');\n");
+            bbdd.execSQL("INSERT INTO \"main\".\"datos\" (\"dato\", \"columna\", \"fila\") VALUES ('12\"', '10', '1/8');\n");
             bbdd.execSQL("INSERT INTO \"main\".\"datos\" (\"dato\", \"columna\", \"fila\") VALUES ('256\"', '10', '1/4');\n");
             bbdd.execSQL("INSERT INTO \"main\".\"datos\" (\"dato\", \"columna\", \"fila\") VALUES ('512\"', '10', '1/2');\n");
             bbdd.execSQL("INSERT INTO \"main\".\"datos\" (\"dato\", \"columna\", \"fila\") VALUES ('17''4\"', '10', '1''');\n");
@@ -230,7 +230,7 @@ public class MainActivity extends AppCompatActivity {
             bbdd.execSQL("INSERT INTO \"main\".\"datos\" (\"dato\", \"columna\", \"fila\") VALUES ('512\"', '15', '1/60');\n");
             bbdd.execSQL("INSERT INTO \"main\".\"datos\" (\"dato\", \"columna\", \"fila\") VALUES ('17''4\"', '15', '1/30');\n");
             bbdd.execSQL("INSERT INTO \"main\".\"datos\" (\"dato\", \"columna\", \"fila\") VALUES ('34''\"', '15', '1/15');\n");
-            bbdd.execSQL("INSERT INTO \"main\".\"datos\" (\"dato\", \"columna\", \"fila\") VALUES ('6''16\"', '15', '1''');\n");
+            bbdd.execSQL("INSERT INTO \"main\".\"datos\" (\"dato\", \"columna\", \"fila\") VALUES ('6''16\"', '15', '1/8');\n");
             bbdd.execSQL("INSERT INTO \"main\".\"datos\" (\"dato\", \"columna\", \"fila\") VALUES ('136''32\"', '15', '1/4');\n");
             bbdd.execSQL("INSERT INTO \"main\".\"datos\" (\"dato\", \"columna\", \"fila\") VALUES ('273''4\"', '15', '1/2');\n");
             bbdd.execSQL("INSERT INTO \"main\".\"datos\" (\"dato\", \"columna\", \"fila\") VALUES ('546''\"', '15', '1''');\n");
@@ -241,7 +241,7 @@ public class MainActivity extends AppCompatActivity {
             bbdd.execSQL("INSERT INTO \"main\".\"datos\" (\"dato\", \"columna\", \"fila\") VALUES ('266''40\"', '20', '1/60');\n");
             bbdd.execSQL("INSERT INTO \"main\".\"datos\" (\"dato\", \"columna\", \"fila\") VALUES ('533''20\"', '20', '1/30');\n");
             bbdd.execSQL("INSERT INTO \"main\".\"datos\" (\"dato\", \"columna\", \"fila\") VALUES ('1066''40\"', '20', '1/15');\n");
-            bbdd.execSQL("INSERT INTO \"main\".\"datos\" (\"dato\", \"columna\", \"fila\") VALUES ('2133''20\"', '20', '1''');\n");
+            bbdd.execSQL("INSERT INTO \"main\".\"datos\" (\"dato\", \"columna\", \"fila\") VALUES ('2133''20\"', '20', '1/8');\n");
             bbdd.execSQL("INSERT INTO \"main\".\"datos\" (\"dato\", \"columna\", \"fila\") VALUES ('4266''40\"', '20', '1/4');\n");
             bbdd.execSQL("INSERT INTO \"main\".\"datos\" (\"dato\", \"columna\", \"fila\") VALUES ('533''20\"', '20', '1/2');\n");
             bbdd.execSQL("INSERT INTO \"main\".\"datos\" (\"dato\", \"columna\", \"fila\") VALUES ('17066'' 40\"', '20', '1''');");
